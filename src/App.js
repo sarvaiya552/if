@@ -24,12 +24,12 @@ function App() {
       {isVisible ? (
         <div style={{ marginTop: '20px' }}>
           <h2>The content is visible!</h2>
-          <p>This is shown when the state is set to true.</p>
+          <p>This state is  true.</p>
         </div>
       ) : (
         <div style={{ marginTop: '20px' }}>
           <h2>The content is hidden!</h2>
-          <p>This is shown when the state is set to false.</p>
+          <p>This  state is   false.</p>
         </div>
       )}
     </div>
